@@ -1,3 +1,4 @@
+
 @media (max-width: 1300px) {
     .curso{
         width: 350px;
@@ -164,4 +165,174 @@
         width: 200px;
         font-size: 15px;
     }
+    
+}
+    
+    @media (max-width: 1300px) {
+    .curso{
+        width: 350px;
+        height: 385px;
+        margin: 10px;
+    }
+
+    .curso img {
+        width: 340px;
+    }
+}
+
+
+
+@media (max-width: 1120px) {
+    .tema{
+        width: 430px;
+    }
+
+    .lista-de-cursos{
+        flex-direction: column;
+    }
+
+    .apresentacao{
+        padding: 25px;
+    }
+    .victor img{
+        width: 300px;
+    }
+
+    .professor p{
+        width: 470px;
+        font-size: 25px;
+    }
+
+}
+
+
+
+@media (max-width: 970px) {
+    .tema{
+        width: 300px;
+    }
+    
+    .sobre-nos p{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+@media (max-width: 810px) {
+    
+    header{
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 120px;
+        margin: 30px;
+    }
+
+    .tema {
+        margin: 30px;
+    }
+
+    .atalhos {
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .atalhos li{
+        margin: 10px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .sobre-nos{
+        padding: 50px 50px;
+    }
+   
+    .sobre-nos p{
+        font-size: 22px;
+    }
+
+    .apresentacao{
+        padding: 30px;
+    }
+    .victor img{
+        width: 250px;
+    }
+
+    .professor p{
+        width: 300px;
+        font-size: 21px;
+    }
+
+
+}
+
+@media (max-width: 475px) {
+
+    .sobre-nos{
+        padding: 50px 25px;
+    }
+   
+    .sobre-nos p{
+        font-size: 16px;
+    }
+
+    .btn{
+        font-size: 20px;
+        width: 200px;
+    }
+
+
+    .curso{
+        width: 250px;
+        height: 275px;
+        margin: 10px;
+    }
+
+    .cursos h2{
+        font-size: 50px;
+        padding: 10px;
+    }
+
+    .professores h2{
+        font-size: 50px;
+        padding: 10px;
+    }
+
+    .rodape h2{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .curso img {
+        width: 240px;
+    }
+
+    .apresentacao{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .victor img{
+        width: 180px;
+        margin: 30px;
+    }
+
+    .victor h3{
+        font-size: 30px;
+    }
+
+    .professor p{
+        width: 200px;
+        font-size: 15px;
+    }
+
 }
